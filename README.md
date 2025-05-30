@@ -15,7 +15,7 @@
 | ------------------------- | ----------------------------------------------------------------------------------------- |
 | DLAV_Phase1_Final.ipynb   | A self-contained notebook that trains, validates, visualizes, and exports the Phase 1 planner. |
 | README.md                 | You are reading it. Describes structure and design choices.                                   |
-| submission_phase1.csv     | Output CSV file formatted for submission used on the [Kaggle DLAV_phase_1 competition](https://www.kaggle.com/t/338eec1b2cd346eaa3b569340ab2de19)..                                                    |
+| submission_phase1.csv     | Output CSV file formatted for submission used on the [Kaggle DLAV_phase_1 competition](https://www.kaggle.com/t/338eec1b2cd346eaa3b569340ab2de19).                                                    |
 | images/loss_vs_epoch.png  | Visualization of training and validation losses over epochs.                                                  |
 | images/sample_predictions.png | Example predictions visualized from the model output. 
 
@@ -129,10 +129,10 @@ From ~epoch 35 onward, the gap widens (train < 0.40 vs. val ≈ 0.55), showing t
 | `DLAV_Phase2_Final.ipynb`        | Notebook containing end-to-end training, evaluation, visualization, and export of the Phase 2 planner.      |
 | `README.md`                      | This document, outlining design decisions and layout for Phase 2.                                           |
 | `submission_phase2.csv`          | CSV formatted for submission to the [Kaggle DLAV_phase_2 competition](https://www.kaggle.com/t/a7295af1cfa349eeb57d08538d44cf58). |
-| `images_phase2/loss_vs_epoch_phase2.png`| Plot of training and validation loss curves across epochs in Phase 2.                                        |
-| `images_phase2/sample_aux_outputs.png`  | Examples of predicted trajectories VS ground truth. |
-| `images_phase2/sample_depth.png`  | Examples of corresponding depth outputs. |
-| `images_phase2/sample_semantic.png`  | Examples of corresponding semantic outputs. |
+| `images/loss_vs_epoch_phase2.png`| Plot of training and validation loss curves across epochs in Phase 2.                                        |
+| `images/sample_aux_outputs.png`  | Examples of predicted trajectories VS ground truth. |
+| `images/sample_depth.png`  | Examples of corresponding depth outputs. |
+| `images/sample_semantic.png`  | Examples of corresponding semantic outputs. |
 
 All code dependencies and datasets are encapsulated in the notebook above.
 
@@ -269,8 +269,8 @@ Building on Phase 1, our multi-task planner consists of:
 | `DLAV_Phase3_Final.ipynb`        | Notebook containing end-to-end training, evaluation, visualization, and export of the Phase 3 planner.      |
 | `README.md`                      | This document, outlining design decisions and layout for Phase 3.                                           |
 | `submission_phase3.csv`          | CSV formatted for submission to the [Kaggle DLAV_phase_3 competition](https://www.kaggle.com/competitions/dlav-phase-3). |
-| `images_phase3/loss_vs_epoch_phase3.png`| Plot of training and validation loss curves across epochs in Phase 3.                                        |
-| `images_phase3/sample_outputs.png`  | Examples of predicted trajectories VS ground truth. |
+| `images/loss_vs_epoch_phase3.png`| Plot of training and validation loss curves across epochs in Phase 3.                                        |
+| `images/sample_outputs.png`  | Examples of predicted trajectories VS ground truth. |
 
 All code dependencies and datasets are encapsulated in the notebook above.
 
