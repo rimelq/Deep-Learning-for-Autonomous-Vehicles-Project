@@ -224,7 +224,7 @@ Building on Phase 1, our multi-task planner consists of:
 
 ### Loss curve analysis
 
-![Phase 2 loss curves](images_phase2/loss_vs_epoch_phase2.png)
+![Phase 2 loss curves](images/loss_vs_epoch_phase2.png)
 
 - **Sharp initial drop**:  
   - **Epoch 1** starts with a high train loss of ~2.41 and val loss ~1.60 (ADE ≈ 3.47).  
@@ -244,9 +244,9 @@ Building on Phase 1, our multi-task planner consists of:
 
 ### Example outputs
 
-![Trajectories & aux outputs](images_phase2/sample_aux_outputs.png)
-![Corresponding sample Depth outputs](images_phase2/sample_depth.png)
-![Corresponding sample Semantic outputs](images_phase2/sample_semantic.png)
+![Trajectories & aux outputs](images/sample_aux_outputs.png)
+![Corresponding sample Depth outputs](images/sample_depth.png)
+![Corresponding sample Semantic outputs](images/sample_semantic.png)
 
 - Predicted trajectories (blue) align closely with ground-truth future paths (green).  
 - We can notice that the depth and semantic predictions reflect scene layout very roughly (roads, obstacles, traffic elements). This shows how the auxiliary tasks are not overfitted and therefore only helped regularize the main task. 
@@ -344,7 +344,7 @@ Building on Phase 1, our multi-task planner consists of:
 
 ### Loss curve analysis
 
-![Phase 3 loss curves](images_phase3/loss_vs_epoch_phase3.png)
+![Phase 3 loss curves](images/loss_vs_epoch_phase3.png)
 
 - **Fine tuning**:  
   - As can be seen in the loss curves, the training loss and the validation loss decrease heavily in the first few epochs, and then find a plateau quite fast. This is due to the fact that the model is already trained and is only being fine tuned for the real images. 
@@ -356,7 +356,7 @@ Building on Phase 1, our multi-task planner consists of:
 
 ### Example outputs
 
-![Trajectories outputs](images_phase3/sample_outputs.png)
+![Trajectories outputs](images/sample_outputs.png)
 
 - Predicted trajectories (blue) align closely with ground-truth future paths (green).  
 
